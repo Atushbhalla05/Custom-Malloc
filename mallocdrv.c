@@ -1,22 +1,3 @@
-/*
-	This is a minimal test case for malloc/free. This is NOT
-	a complete, 100% coverage set of test cases. Your test cases
-	should be much more complete. The value of this file is to
-	remind you to test not just by calling your malloc and free
-	implementations, but to also write to the memory that you allocate.
-
-	If you don't write to the memory you allocate, the CPU and OS
-	will never tell you your allocation wasn't correctly made by
-	crashing. You just moved a pointer (brk) back and forth. It's
-	in using the space that you test your allocations.
-
-	To use, change the #defined values below from malloc to
-	my_firstfit_malloc and my_free and change TIMES to a reasonable
-	value. Compile this file with your C file containing the
-	implementation of your malloc and free and link them together by:
-
-	gcc -m32 -o malloctest mallocdrv.c mymalloc.c
-*/
 
 #include <stdio.h>
 #include <unistd.h>
